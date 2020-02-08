@@ -23,6 +23,19 @@ ul {
   list-style: none;
 }
 
+input, textarea {
+  border: 1px solid $medium-color;
+  border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+  color: $medium-color;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
 h2,
 h3,
 h4 {
