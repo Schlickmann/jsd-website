@@ -31,7 +31,7 @@ input[class^='btn-']:hover {
   background-color: #ffbc00; }
 
 #header-home, #contact-c {
-  background: url("../img/showcase.jpg") no-repeat center right/cover; }
+  background: url("../img/showcase.png") no-repeat center right/cover; }
 
 .bg-main {
   background: #ffbc00;
@@ -242,7 +242,7 @@ img {
       line-height: 1.2; }
 
 #header-inner {
-  background: url("../img/showcase.jpg") no-repeat 20% 30%/cover;
+  background: url("../img/showcase.png") no-repeat 20% 30%/cover;
   height: 5.5rem;
   border-bottom: 3px solid #ffbc00; }
 
