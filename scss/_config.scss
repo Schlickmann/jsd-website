@@ -1,0 +1,20 @@
+@import  url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+// Variables
+$website-width: 1280px;
+$font-stack: 'Dosis', sans-serif;
+$main-color: #ffbc00;
+$light-color: #f4f4f4;
+$medium-color: #ccc;
+$medium-dark-color: rgb(190, 190, 190);
+$dark-color: #333;
+$overlay: rgba(0, 0, 0, 0.4);
+$bg-image: url('../img/showcase.jpg');
+
+// Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 50) {
+    @return $dark-color;
+  } @else {
+    @return $light-color;
+  }
+}

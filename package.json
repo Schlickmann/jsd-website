@@ -1,0 +1,15 @@
+{
+  "name": "portfolio",
+  "description": "Personal portfolio website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Juliani Schlickmann Damasceno",
+  "license": "MIT",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
