@@ -10,4 +10,4 @@ Technologies used:
   - [x] Flexbox
 - [x] Javascript (Typewriter)
 
-[Access the website](https://reverent-galileo-70f6a3.netlify.com/)
+[Access the website](https://jsd-schlickmann.netlify.com/)
